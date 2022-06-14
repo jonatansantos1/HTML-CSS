@@ -42,7 +42,7 @@ header > h1 {
   color: white;
   font-family: var(--fonte-destaque);
   padding-top: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 3em;
   text-shadow: 2px 2px 0px #00000052;
 }
@@ -52,9 +52,11 @@ header > p {
   font-size: 1.2em;
   max-width: 600px;
   margin: auto;
+  padding-top: 10px;
   padding-right: 10px;
   padding-left: 10px;
   text-shadow: 2px 2px 0px #00000052;
+  padding-bottom: 20px;
 }
 nav {
   background-color: var(--cor5);

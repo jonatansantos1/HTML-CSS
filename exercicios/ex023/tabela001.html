@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabelas em HTML5</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+
+    td {
+      border: 1px solid black;
+      width: 100px;
+    }
+
+    .colunas {
+      background-color: whitesmoke;
+    }
+
+    #linhas {
+      background-color: rgba(255, 255, 0, 0.300);
+      color: blueviolet;
+    }
+
+    .linhas-escondidas {
+      border: none;
+    }
+  </style>
+
+<body>
+  <h1>Minha primeira tabela</h1>
+  <table>
+    <tr class="colunas">
+      <td>Tabela</td>
+      <td>Colunas 1</td>
+      <td>Colunas 2</td>
+      <td>Colunas 3</td>
+      <td>Colunas 4</td>
+
+    </tr>
+    <tr class="linhas-a">
+      <td id="linhas">Linhas A</td>
+      <td>a1</td>
+      <td>a2</td>
+      <td>a3</td>
+      <td>a4</td>
+    </tr>
+    <tr lass="linhas-b">
+      <td id="linhas">Linhas B</td>
+      <td>b1</td>
+      <td>b2</td>
+      <td>b3</td>
+      <td>b4</td>
+    </tr>
+    <tr class="linhas-c">
+      <td id="linhas">Linhas C</td>
+      <td>c1</td>
+      <td>c2</td>
+      <td>c3</td>
+      <td>c4</td>
+    <tr>
+      <td class="linhas-escondidas"></td>
+      <td class="linhas-escondidas"></td>
+      <td class="linhas-escondidas"></td>
+      <td>Enviar</td>
+      <td>Cancelar</td>
+    </tr>
+    </tr>
+
+  </table>
+</body>
+
+</html>

@@ -11,6 +11,10 @@
       border-collapse: collapse;
     }
 
+    #tabela {
+      text-align: left;
+    }
+
     td {
       border: 1px solid black;
       width: 100px;
@@ -22,11 +26,20 @@
 
     #linhas {
       background-color: rgba(255, 255, 0, 0.300);
-      color: blueviolet;
+      color: rgb(90, 31, 146);
     }
 
     .linhas-escondidas {
       border: none;
+    }
+
+    .colunas {
+      text-align: center;
+    }
+
+    .btn {
+      text-align: center;
+      background-color: #8080807c;
     }
   </style>
 
@@ -34,7 +47,7 @@
   <h1>Minha primeira tabela</h1>
   <table>
     <tr class="colunas">
-      <td>Tabela</td>
+      <td id="tabela">Tabela</td>
       <td>Colunas 1</td>
       <td>Colunas 2</td>
       <td>Colunas 3</td>
@@ -65,8 +78,8 @@
       <td class="linhas-escondidas"></td>
       <td class="linhas-escondidas"></td>
       <td class="linhas-escondidas"></td>
-      <td>Enviar</td>
-      <td>Cancelar</td>
+      <td class="btn">Enviar</td>
+      <td class="btn">Cancelar</td>
     </tr>
     </tr>
 
